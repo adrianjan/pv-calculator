@@ -353,7 +353,7 @@ import mailjs from 'emailjs-com';
                   date: this.date,
                   amount: this.amount
                 };
-              mailjs.send("service_j43t1cn","template_667bgss", templateParams, 'F_pcL1FNA60JIt7Ej').then(function(response) {
+              mailjs.send(serviceID, templateID, templateParams, publicKey).then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
               }, function(error) {
                 console.log('FAILED...', error);
