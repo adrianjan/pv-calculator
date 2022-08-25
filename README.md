@@ -5,6 +5,10 @@ A simple component in vue.js for one of my recent projects.
 
 ## Vue and Vuetify was used :)
 
+
+https://user-images.githubusercontent.com/50575494/186571151-cc8f3a94-0cd9-4013-a800-98da7e70c42f.mp4
+
+
 ## Features
 
 - Form validation with watchers
